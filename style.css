@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
   margin: 0;
-  padding: 0;
+  padding: 0
   box-sizing: border-box;
   font-family: 'Poppins',sans-serif;
 }
@@ -11,7 +11,9 @@ body{
   justify-content: center;
   align-items: center;
   padding: 10px;
-  background: linear-gradient(135deg, #1dcdec, #f0a709);
+    background-image: url('cover2.jpg');
+    background-repeat: no-repeat;
+}
 }
 .container{
   max-width: 700px;
@@ -105,7 +107,7 @@ form .input-box span.details{
  }
  form .button input{
    height: 100%;
-   width: 100%;
+   width: 10%;
    border-radius: 5px;
    border: none;
    color: #fff;
@@ -143,5 +145,3 @@ form .user-details .input-box{
   .container .content .category{
     flex-direction: column;
   }
-}
-}
